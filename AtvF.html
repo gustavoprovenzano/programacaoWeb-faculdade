@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <h2>Identificação do Usuario</h2>
+    <P>Nome* :
+        <input type="text" name="Login" size="15" maxlength="30">
+    </P>
+    <p>Senha* :
+        <input type="password" name="senha" size="8" max="8">
+    </p>
+    <p>Sexo* : 
+        <select name="status">
+            <option value="masc"> Masculino </option>
+            <option value="fem"> Feminino </option>
+            <option value="naobinario"> Não Binario </option>
+            <option value="transmas"> Trans Masculino</option>
+            <option value="transfem"> Trans Feminino</option>
+        </select>
+    </p>
+    <p>
+        Data de Nascimento* :
+            <input type="date" name="dataNasc" id="nascimento"/>
+    </p>
+    <p> 
+        Estado Civil* : 
+        <select name="estadocivil">
+            <option value="solteiro"> Solteiro </option>
+            <option value="casado"> Casado </option>
+            <option value="viuvo"> Viuvo </option>
+            <option value="divorciado"> Divorciado </option>
+        </select>
+    </p>
+    <p>
+        Escolaridade :
+        <select name="escolaridade">
+            <option value="semescolaridade"> Sem Escolaridade</option>
+            <option value="fundamental"> Ensido Fundamental </option>
+            <option value="medio">Ensino Medio </option>
+            <option value="superior">Ensino Superior </option>
+            <option value="graduacao"> Pós Graduação </option>
+        </select>
+            <input type="radio" name="atribuicao" value="cursando"/> Cursando
+            <input type="radio" name="atribuicao" value="concluido"/> Concluido
+    </p>
+    <p>
+        Ocupação Principal :
+         <input type="text" name="ocupacao"/>
+    <p>
+        Renda Mensal :
+         <input type="text" name="renda"/> 
+    </p>
+    <p>
+        Numero de Dependente :
+         <input type="text" name="renda"/> 
+    </p>
+    <p>
+        <input type="submit" value="Cadastrar">
+        <input type="submit" value="Excluir">
+    </p>
+</fieldset>
+</body>
+</html>
