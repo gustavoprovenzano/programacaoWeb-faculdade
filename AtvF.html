@@ -7,7 +7,7 @@
 </head>
 <body>
     <fieldset>
-    <h2>Identificação do Usuario</h2>
+    <h3>Identificação do Usuario</h3>
     <P>Nome* :
         <input type="text" name="Login" size="15" maxlength="30">
     </P>
@@ -53,16 +53,55 @@
          <input type="text" name="ocupacao"/>
     <p>
         Renda Mensal :
-         <input type="text" name="renda"/> 
+         <input type="number" name="renda"/> 
     </p>
     <p>
         Numero de Dependente :
          <input type="text" name="renda"/> 
     </p>
     <p>
+        Telefone* :
+         <input type="number" name="telefone"/>
+    </p>
+    <p>
+        E-mail* :
+         <input type="email" name="email"/>
+    </p>
+    <br>
+    <h3>Localização</h3>
+    <p>
+        Estado* :
+        <input type="text" name="estado">
+    </p>
+    <p>
+        Cidade* :
+        <input type="text" name="cidade">
+    <p>
         <input type="submit" value="Cadastrar">
         <input type="submit" value="Excluir">
     </p>
+    <br>
+    <h3>Mensagem do Usuario</h3>
+    <p> 
+        Grau de Urgencia :
+        <select name="urgencia">
+            <option value="urgente"> Urgente </option>
+            <option value="medio"> Moderado </option>
+            <option value="pouco"> Pouco Urgente </option>
+        </select>
+    </p>
+    <p>
+        Mensagem :
+         <br><textarea name="mensagem"></textarea>
+    </p>
+    <p>
+        <input type="file" value="uploadErro">
+        <input type="submit" value="Reportar Erro">
+    </p>
+    <br>
+    </p>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Limpar">
 </fieldset>
 </body>
 </html>
